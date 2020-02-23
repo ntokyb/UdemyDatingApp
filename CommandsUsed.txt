@@ -1,0 +1,16 @@
+Commands Used:::
+dotnet new webapi -f netcoreapp3.0 -n DatingApp.Api
+dotnet tool install --global dotnet-ef
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+dotnet watch run
+
+npm install -g @angular/cli
+ng new DatingApp-SPA
+
+Git Commands
+git init
+git remote add origin https://github.com/ntokyb/UdemyDatingApp.git
+
+
+
